@@ -5,3 +5,7 @@ CREATE TABLE Users (
     password VARCHAR(255) NOT NULL,
     role ENUM('admin', 'seller', 'buyer') NOT NULL
 );
+-- Comment the code above when executing the code below
+
+alter table Users add column created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP;
+alter table Users add column updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP;
