@@ -23,7 +23,7 @@ Stores information about users, including buyers, sellers, and administrators.
 - `user_id`: Unique identifier for the user (Primary Key).
 - `username`: Unique username for login purposes.
 - `email`: Unique email address for account communication.
-- `password_hash`: Securely stored password hash.
+- `password`: Securely stored password hash.
 - `created_at`: Timestamp of account creation.
 - `updated_at`: Timestamp for tracking updates.
 - `role`: User role (admin, seller, buyer).
