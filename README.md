@@ -95,4 +95,4 @@ Stores ratings and comments given by buyers to sellers after a transaction.
 ## Setup
 
 1. Clone the repository in your project directory:
-   ```git clone https://github.com/Lenonkoech/auctionManagementDB.git```
+   ```git clone https://github.com/Lenonkoech/AuctionManagementDB.git```
