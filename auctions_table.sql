@@ -10,5 +10,6 @@ CREATE TABLE Auctions (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
     FOREIGN KEY (user_id) REFERENCES Users(user_id),
-    FOREIGN KEY (category_id) REFERENCES Categories(category_id)
+    FOREIGN KEY (category_id) REFERENCES Categories(category_id),
+    maxBidders int;
 );

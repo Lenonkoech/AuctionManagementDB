@@ -27,6 +27,12 @@ Stores information about users, including buyers, sellers, and administrators.
 - `created_at`: Timestamp of account creation.
 - `updated_at`: Timestamp for tracking updates.
 - `role`: User role (admin, seller, buyer).
+- `firstName`: User's first name.
+- `lastName`: User's last name.
+- `DOB`: User's date of birth.
+- `postalAdress`: User's postal address.
+- `phoneNumber`: unique User's phone number for account communication.
+- `paymId`: payment id that links users to their setup payment methods. 
 
 #### Auctions Table
 
@@ -42,6 +48,7 @@ Stores details of auctions created by users.
 - `category_id`: Reference to the category of the auction (Foreign Key).
 - `created_at`: Timestamp of auction creation.
 - `updated_at`: Timestamp for tracking updates.
+- `maxBidders`: Maximum number of bidders allowed to bid for an item.
 
 #### Bids Table
 
@@ -83,6 +90,17 @@ Stores ratings and comments given by buyers to sellers after a transaction.
 - `comment`: Optional comment accompanying the rating.
 - `created_at`: Timestamp of when the rating was given.
 
+### PaymentMethods Table
+Stores information about users payment mathods for making transactions.
+
+- `paymId`: Unique identifier for each payment type of a user (Primary key).
+- `user_id`: Reference to the user whom the payment method belongs to (Foreign key).
+- `type`: Type of payment maethod (card,paypal,M-pesa,other).
+- `details`: The details of the payment methods e.g phone number for M-pesa payment.
+- `holderName`: The name registered to the payment method.
+- `expiryDate`: The expiry date of the payment method where applicable.
+- `CVV`: Applicable to cards only.
+
 ## Relationships
 
 - **Users** can create multiple **Auctions**.
@@ -90,7 +108,11 @@ Stores ratings and comments given by buyers to sellers after a transaction.
 - **Users** can place multiple **Bids**.
 - Each **Auction** belongs to one **Category**.
 - **Users** can have multiple **Payments**.
+- **Users** can have multiple **Payments Methods**.
 - **Users** can leave multiple **Ratings** for different sellers.
+
+## ER-Diagram
+<img src="/project.png"/>
 
 ## Setup
 
