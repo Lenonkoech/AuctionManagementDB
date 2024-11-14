@@ -114,7 +114,7 @@ Stores information about users payment mathods for making transactions.
 - Each **Payment** is linked to one **Payment Method**
 
 ## ER-Diagram
-<img src="/erdiagram.png"/>
+<img src="/project.png"/>
 
 ## Setup
 
