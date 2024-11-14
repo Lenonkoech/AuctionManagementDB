@@ -78,6 +78,7 @@ Tracks payment transactions related to successfully completed auctions.
 - `amount`: Amount of the payment.
 - `status`: Status of the payment (pending, completed, refunded).
 - `created_at`: Timestamp of payment processing.
+- `paymId`: Reference to the payment method used by user.
 
 #### Ratings Table
 
@@ -110,9 +111,10 @@ Stores information about users payment mathods for making transactions.
 - **Users** can have multiple **Payments**.
 - **Users** can have multiple **Payments Methods**.
 - **Users** can leave multiple **Ratings** for different sellers.
+- Each **Payment** is linked to one **Payment Method**
 
 ## ER-Diagram
-<img src="/project.png"/>
+<img src="/erdiagram.png"/>
 
 ## Setup
 
