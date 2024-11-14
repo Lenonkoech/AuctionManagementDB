@@ -5,7 +5,7 @@ The database design supports user management, auction listings, bidding, payment
 
 ## Database Overview
 
-The auction management database consists of six main tables:
+The auction management database consists of seven main tables:
 
 1. **Users**
 2. **Auctions**
@@ -13,6 +13,7 @@ The auction management database consists of six main tables:
 4. **Categories**
 5. **Payments**
 6. **Ratings**
+7. **PaymentMethods**
 
 ### Table Descriptions
 
