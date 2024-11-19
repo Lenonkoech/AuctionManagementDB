@@ -1,0 +1,1 @@
+Delete from auctionManagement.Users where user_id = 6;
