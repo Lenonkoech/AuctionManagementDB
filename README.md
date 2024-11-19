@@ -77,8 +77,8 @@ This repository contains the SQL files for an Auction Management System. The dat
     sudo mysql -u root -p
     ```
     Enter your password when prompted.
-    
-8. Download the MySQL Installer from the [MySQL Community Downloads page](https://dev.mysql.com/downloads/mysql/).
+
+8. Download the MySQL workbench for Linux from the [MySQL Community Downloads page](https://dev.mysql.com/doc/workbench/en/wb-installing-linux.html).
 
 ## Database Overview
 
