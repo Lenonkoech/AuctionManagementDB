@@ -1,1 +1,1 @@
-Delete from auctionManagement.Users where user_id = 6;
+Delete from Users where user_id = 6;

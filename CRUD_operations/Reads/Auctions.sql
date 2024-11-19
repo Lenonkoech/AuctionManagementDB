@@ -1,1 +1,1 @@
-SELECT * FROM auctionManagement.Auctions;
+SELECT * FROM Auctions;
