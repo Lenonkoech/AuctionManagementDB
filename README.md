@@ -9,7 +9,8 @@ This repository contains the SQL files for an Auction Management System. The dat
      - [Windows](#windows)
      - [macOS](#macos)
      - [Linux](#linux)
-2. [Database Overview](#database-overview)
+2. [Setup](#setup)
+3. [Database Overview](#database-overview)
    - [Table Descriptions](#table-descriptions)
      - [Users Table](#users-table)
      - [Auctions Table](#auctions-table)
@@ -20,7 +21,6 @@ This repository contains the SQL files for an Auction Management System. The dat
      - [PaymentMethods Table](#paymentmethods-table)
    - [Relationships](#relationships)
    - [ER-Diagram](#er-diagram)
-3. [Setup](#setup)
 
 ## Setting Up MySQL Server and Workbench
 
@@ -79,6 +79,22 @@ This repository contains the SQL files for an Auction Management System. The dat
     Enter your password when prompted.
 
 8. Download the MySQL workbench for Linux from the [MySQL Community Downloads page](https://dev.mysql.com/doc/workbench/en/wb-installing-linux.html).
+
+## Setup
+
+1. Clone the repository in your project directory:
+    ```bash
+    git clone https://github.com/Lenonkoech/AuctionManagementDB.git
+
+2. Navigate to the project directory
+   ```bash
+   cd ../../AuctionManagementDB
+
+3. Execute the create the createdb.sql query
+   ```bash
+   create database if not exists auctionManagement;
+
+4. Execute the create tables queries and be free to manipulate any other data in the project. 
 
 ## Database Overview
 
@@ -186,10 +202,3 @@ Stores information about users' payment methods for making transactions.
 
 ### ER-Diagram
 <img src="/project.png" alt="ErDiagram">
-
-## Setup
-
-1. Clone the repository in your project directory:
-    ```bash
-    git clone https://github.com/Lenonkoech/AuctionManagementDB.git
-    ```
